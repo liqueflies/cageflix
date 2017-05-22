@@ -1,18 +1,25 @@
 # cageflix
 
-> A Vue.js project
+> A Nicolas Cage clone for Netflix in Vue
+
+## Project idea
+
+> This is a simple Vue.js project training, covering a browsing list of movies with simple server-side rendering achieved from vue-cli.
+
+## Requirements
+
+> Node >= 6.9.4
+> yarn / npm
 
 ## Build Setup
 
 ``` bash
 # install dependencies
-npm install
+yarn install
 
-# serve with hot reload at localhost:8080
-npm run dev
+# build project
+yarn build
 
-# build for production with minification
-npm run build
+# run project
+node server
 ```
-
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
