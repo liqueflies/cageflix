@@ -1,5 +1,5 @@
 <template>
-  <div id="movie-detail" class="container">
+  <article id="movie-detail">
     <template v-if="movie">
       <div class="row relative">
         <div class="col-sm-12">
@@ -57,7 +57,7 @@
         {{ movie }}
       </pre>
     </template>
-  </div>
+  </article>
 </template>
 
 <script>
